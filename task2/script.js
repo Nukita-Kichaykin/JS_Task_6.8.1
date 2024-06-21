@@ -3,8 +3,8 @@ const alertt = document.querySelector('#alert')
 const promptt = document.querySelector('#prompt')
 
     document.querySelector('#consolelog').addEventListener('click', function (event){
-    
-        alert('Пример использования кнопки console.log');
+        
+        alert('Вывод текста в консоль!');
         console.log('console.log');
 });
 
@@ -17,6 +17,5 @@ const promptt = document.querySelector('#prompt')
     document.querySelector('#prompt').addEventListener('click', function (event){
     
         alert('Пример использования кнопки prompt');
-        prompt('Введите текст!');
-        console.log('prompt');
+        console.log(prompt('Введите текст!'));
 });
