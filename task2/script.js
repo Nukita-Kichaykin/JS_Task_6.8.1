@@ -5,7 +5,7 @@ const promptt = document.querySelector('#prompt')
     document.querySelector('#consolelog').addEventListener('click', function (event){
         
         alert('Вывод текста в консоль!');
-        console.log('console.log');
+        console.log('Этот текст отобразили в консоль');
 });
 
     document.querySelector('#alert').addEventListener('click', function (event){
